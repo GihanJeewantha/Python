@@ -17,16 +17,15 @@ print(full_name)
 age = 23
 print("My age is : "+str(age))
 
-height = 250.5
-print(height)
-print(type(height))
-print("you'r height is : "+str(height)+"cm")
+name = input('Whats is your name? ')
+print("Hi"+ name)
 
-#multiple Assignment Python
+name = input('Whats is your name? ')
+print("Hi"+ name)
 
-# name ="Bro"
-# age = 23
-# attractive = True
+color_like = input("What is favorite Color")
+print(color_like)
 
-name, age, attractive = "Jewantha", 23 , True
-
+Birth_year = input('Birth year: ')
+age = 2022 - int(Birth_year)
+print(age)
