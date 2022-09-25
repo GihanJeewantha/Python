@@ -29,3 +29,10 @@ print(color_like)
 Birth_year = input('Birth year: ')
 age = 2022 - int(Birth_year)
 print(age)
+
+
+num=5
+while (num>0):
+    print("Sri Lanka")
+    num=num-1
+
